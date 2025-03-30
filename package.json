@@ -9,6 +9,7 @@
     "webpack-dev-server": "^5.2.0"
   },
   "scripts":{
-    "dev": "webpack serve"
+    "start": "webpack serve --open --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js"
   }
 }
